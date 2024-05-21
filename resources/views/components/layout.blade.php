@@ -12,8 +12,8 @@
         rel="stylesheet">
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
-<body class="pb-10 text-white bg-black font-hanken-grotesk">
-    <div class="px-10">
+<body class="antialiased text-white font-hanken-grotesk ">
+    <div class="relative min-h-screen px-10 pb-10 bg-gray-100 bg-center sm:justify-center sm:items-center bg-dots-darker dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
         <nav class="flex items-center justify-between py-4 border-b border-white/20">
             <div>
                 <a href="/">
@@ -29,7 +29,7 @@
             </div>
 
             @auth
-                <div class="space-x-6 font-bold flex">
+                <div class="flex space-x-6 font-bold">
                     <a href="/jobs/create">Post a Job</a>
                 
                     <form method="POST" action="/logout">
