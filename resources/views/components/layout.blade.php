@@ -14,7 +14,7 @@
 </head>
 <body class="antialiased text-white font-hanken-grotesk ">
     <div class="relative min-h-screen px-10 pb-10 bg-gray-100 bg-center sm:justify-center sm:items-center bg-dots-darker dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-        <nav class="flex items-center justify-between py-4 border-b border-white/20">
+        <nav class="flex items-center justify-between py-4 font-semibold text-gray-600 border-b border-white/20 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
             <div>
                 <a href="/">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="logo">

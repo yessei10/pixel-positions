@@ -15,6 +15,8 @@
 
 @endphp
 
-<img src="{{ $pathLogo }}" alt="" class="rounded-xl" width="{{ $width }}">
+    <img src="{{ $pathLogo }}" alt="" class="flex items-center justify-center rounded-full" width="{{ $width }}">
+
+{{-- <img src="{{ $pathLogo }}" alt="" class="rounded-xl" width="{{ $width }}"> --}}
 
 {{-- <img src="{{ asset('storage/' . $pathLogo) }}" alt="" class="rounded-xl" width="{{ $width }}"> --}}
